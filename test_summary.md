@@ -1,0 +1,5 @@
+# Automated Testing Summary (150 words)
+
+The Selenium script automates login testing for `saucedemo.com`, verifying valid (`standard_user`, `secret_sauce`) and invalid (`invalid_user`, `wrong_password`) credentials. Results showed 100% success: valid login redirected to the inventory page, and invalid login displayed an error message. Screenshots (attached in report) confirm outcomes.
+
+AI-enhanced tools like Testim.io improve test coverage by generating additional test cases based on user behavior patterns, reducing manual script writing. For example, Testim’s AI can detect UI changes and auto-update selectors, preventing test failures due to DOM updates. Compared to manual testing, AI automation is faster (tests ran in ~5 seconds vs. minutes manually) and scales to cover edge cases (e.g., empty inputs). However, AI may miss context-specific bugs, requiring human oversight. Selenium with AI plugins balances speed and reliability, making it ideal for regression testing in agile environments.
