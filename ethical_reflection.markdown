@@ -1,0 +1,5 @@
+# Ethical Reflection (150 words)
+
+Deploying the predictive model from Task 3 in a company risks biases if the dataset underrepresents certain groups. For example, if the Kaggle Breast Cancer Dataset lacks diversity in patient demographics (e.g., age, ethnicity), the model may misprioritize issues for underrepresented teams, leading to inequitable resource allocation. This could exacerbate disparities in software maintenance, favoring dominant user groups.
+
+Fairness tools like IBM AI Fairness 360 can mitigate these biases by analyzing metrics like disparate impact and reweighting training data to balance representation. Additionally, adversarial debiasing can reduce model reliance on sensitive features. Implementing these tools ensures equitable prioritization, fostering inclusive software. Regular audits and diverse data collection are critical to maintain fairness. Ethical AI deployment enhances trust and aligns with principles of responsible software engineering, ensuring no team is marginalized in resource allocation decisions.
